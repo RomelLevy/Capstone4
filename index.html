@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<h1>Car Black Market</h1>
+	<h2>Pick Something & Give Me Your Money</h2>
+
+
+
+	<table cellpadding="4" cellspacing="4" border="1">
+		<tr>
+			<td valign="top">
+				<table cellpadding="4" cellspacing="4" border="0">
+					<thead>
+						<tr>
+							<td colspan="2">Products for sale</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>19' Ferrari 488 Pista-200K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Ferrari','3.9-Liter Twin-turbocharged V8 711HP',200000)" /></td>
+						</tr>
+						<tr>
+							<td>18' Nissan Nismo GT3-175K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Nissan','3.8-Liter twin-turbocharged V-6 600HP',150000)" /></td>
+						</tr>
+						<tr>
+							<td>67' Pontiac GTO-70K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Pontiac','6.6-Liter V8 800HP',70000)" /></td>
+
+						</tr>
+						<tr>
+							<td>96' Acura NSX-120K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Acura','3.0-Liter V6 400HP',120000)" /></td>
+
+						</tr>
+
+						<tr>
+							<td>17' Pagani Huarya-900K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Pagani','6.0-Liter V12 700HP',900000)" /></td>
+
+						</tr>
+
+						<tr>
+							<td>97' BMW 850i-300K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('BMW','5.4-Liter V12 400HP',300000)" /></td>
+
+						</tr>
+
+						<tr>
+							<td>85' Lamborghini Countach LP5000 Quattrovalvole-400K</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Lamborghini','5.2-Liter V12 600HP',600000)" /></td>
+
+						</tr>
+
+						<tr>
+							<td>18' Koenigsegg Regera-1.2M</td>
+							<td><input type="button" value="Add to cart"
+								onclick="AddtoCart('Koenigsegg','5.0-Liter twin-turbo aluminum V8 1200HP',120000000)" /></td>
+
+						</tr>
+					</tbody>
+
+				</table>
+			</td>
+			<td valign="top">
+				<table cellpadding="4" cellspacing="4" border="1"
+					id="orderedProductsTbl">
+					<thead>
+						<tr>
+							<td>Name</td>
+							<td>Description</td>
+							<td>Price</td>
+							<td>Total</td>
+						</tr>
+					</thead>
+					<tbody id="orderedProductsTblBody">
+
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" align="right" id="cart_total">Empty</td>
+							<td colspan="1" align="right" id="cart_total">Total</td>
+							<td><input type="button" value="Checkout" onclick= /></td>
+						</tr>
+					</tfoot>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<script src="script.js"></script>
+</body>
+</html>

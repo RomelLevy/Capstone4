@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+	color: black;
+	text-shadow: 0 0 3px #FF0000;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-shadow: 0 0 3px #FF0000;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+
+body {
+	background-color: grey;
+}
+
+table {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 8px;
+}
+
+td {
+	text-shadow: 0 0 3px #FF0000;
+	padding: 14px 16px;
+}
+thead{
+	font-size: 25px;
+}
